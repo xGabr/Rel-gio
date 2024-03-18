@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible"content="IE-edge">
+        <meta name="viewport" content="width-device-width, initial-scale">
+        <title> Relógio Digital </title>
+        <link rel="stylesheet" type="text/css" href="Css/style.css">
+    </head>
+    <body>
+
+       
+
+        <ul id="relogio">
+            <li class="item-circulo" style="--clr: #d9ff02;">
+
+                   <i class="pontos hr_ponto"></i> 
+                <svg>
+                    <circle cx="70" cy="70" r="70"></circle>
+                    <circle cx="70" cy="70" r="70" id="hh"></circle>
+                </svg>
+                <div id="horas"> 00 </div>
+            </li>
+            <li class="item-circulo" style="--clr: #87CEEB;">
+                <i class="pontos min_ponto"></i> 
+
+                <svg>
+                    <circle cx="70" cy="70" r="70"></circle>
+                    <circle cx="70" cy="70" r="70" id="mm"></circle>
+                </svg>
+                <div id="minutos"> 00 </div>
+            </li>
+            <li class="item-circulo" style="--clr: #9370DB;">
+                <i class="pontos seg_ponto"></i> 
+
+                <svg>
+                    <circle cx="70" cy="70" r="70"></circle>
+                    <circle cx="70" cy="70" r="70" id="ss"></circle>
+                </svg>
+                <div id="segundos"> 00 </div>
+            </li>
+            <li class="ap">
+                <div id="ampm">AM</div>
+
+            </li>
+        </ul>
+        <script src="script/script.js"></script>
+    </body>
+</html>
